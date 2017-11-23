@@ -1,0 +1,4 @@
+target :WPDemo do
+project 'WPDemo.xcodeproj'
+platform :ios, '7.0'
+end
