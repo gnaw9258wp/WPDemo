@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6214BA44572E3B69544CC73C /* libPods-WPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDA8FBF560B12C996B32DB7 /* libPods-WPDemo.a */; };
+		F710490A202D844A0061FE9B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7104909202D844A0061FE9B /* OneViewController.m */; };
 		F73254951FC6BB1C00186435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73254941FC6BB1C00186435 /* AppDelegate.m */; };
 		F73254981FC6BB1C00186435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73254971FC6BB1C00186435 /* ViewController.m */; };
 		F732549B1FC6BB1C00186435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73254991FC6BB1C00186435 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		8F86272F86120378DDE58306 /* Pods-WPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPDemo/Pods-WPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF78B096F361C36B68B3DFB9 /* Pods-WPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPDemo/Pods-WPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BFDA8FBF560B12C996B32DB7 /* libPods-WPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7104908202D844A0061FE9B /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F7104909202D844A0061FE9B /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		F73254901FC6BB1C00186435 /* WPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73254931FC6BB1C00186435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F73254941FC6BB1C00186435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +103,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F7104907202D843F0061FE9B /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				F7104908202D844A0061FE9B /* OneViewController.h */,
+				F7104909202D844A0061FE9B /* OneViewController.m */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
 		F73254871FC6BB1C00186435 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 		F73254921FC6BB1C00186435 /* WPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7104907202D843F0061FE9B /* Comments */,
 				F73254931FC6BB1C00186435 /* AppDelegate.h */,
 				F73254941FC6BB1C00186435 /* AppDelegate.m */,
 				F73254961FC6BB1C00186435 /* ViewController.h */,
@@ -349,6 +362,7 @@
 				F73254981FC6BB1C00186435 /* ViewController.m in Sources */,
 				F73254A31FC6BB1C00186435 /* main.m in Sources */,
 				F73254951FC6BB1C00186435 /* AppDelegate.m in Sources */,
+				F710490A202D844A0061FE9B /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
