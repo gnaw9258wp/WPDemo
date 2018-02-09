@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WPDemo"
-  s.version      = "1.0.1"
-  s.summary      = "A short description of WPDemo."
+  s.version      = "2.0.0"
+  s.summary      = "if you want more money please deam"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = 'Going'
+  s.description  = 'Going Going Going Going Going Going Going'
 
   s.homepage     = "https://github.com/gnaw9258wp/WPDemo.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gnaw9258wp/WPDemo.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/gnaw9258wp/WPDemo.git", :tag => "2.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

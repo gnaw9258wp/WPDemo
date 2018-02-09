@@ -7,9 +7,9 @@
 //
 
 #import "OneViewController.h"
-
+#import <MJRefresh/MJRefresh.h>
 @interface OneViewController ()
-
+@property (nonatomic,strong)UITableView *tableview;
 @end
 
 @implementation OneViewController
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    self.tableview.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        [self.tableview.mj_header endRefreshing];
+    }];
     // Do any additional setup after loading the view.
 }
 
