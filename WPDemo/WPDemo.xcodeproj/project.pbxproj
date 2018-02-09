@@ -16,6 +16,7 @@
 		F73254A31FC6BB1C00186435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73254A21FC6BB1C00186435 /* main.m */; };
 		F73254AD1FC6BB1C00186435 /* WPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73254AC1FC6BB1C00186435 /* WPDemoTests.m */; };
 		F73254B81FC6BB1C00186435 /* WPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73254B71FC6BB1C00186435 /* WPDemoUITests.m */; };
+		F78FEE87202D458B0064190E /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FEE86202D458B0064190E /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		F73254B31FC6BB1C00186435 /* WPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73254B71FC6BB1C00186435 /* WPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDemoUITests.m; sourceTree = "<group>"; };
 		F73254B91FC6BB1C00186435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78FEE85202D458B0064190E /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F78FEE86202D458B0064190E /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		F73254921FC6BB1C00186435 /* WPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F78FEE84202D45680064190E /* Comments */,
 				F73254931FC6BB1C00186435 /* AppDelegate.h */,
 				F73254941FC6BB1C00186435 /* AppDelegate.m */,
 				F73254961FC6BB1C00186435 /* ViewController.h */,
@@ -154,6 +158,15 @@
 				F73254B91FC6BB1C00186435 /* Info.plist */,
 			);
 			path = WPDemoUITests;
+			sourceTree = "<group>";
+		};
+		F78FEE84202D45680064190E /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				F78FEE85202D458B0064190E /* OneViewController.h */,
+				F78FEE86202D458B0064190E /* OneViewController.m */,
+			);
+			path = Comments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +362,7 @@
 				F73254981FC6BB1C00186435 /* ViewController.m in Sources */,
 				F73254A31FC6BB1C00186435 /* main.m in Sources */,
 				F73254951FC6BB1C00186435 /* AppDelegate.m in Sources */,
+				F78FEE87202D458B0064190E /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -500,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -515,6 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BFM8M7NHYU;
 				INFOPLIST_FILE = WPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wp2017.test.WPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BFM8M7NHYU;
 				INFOPLIST_FILE = WPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wp2017.test.WPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
