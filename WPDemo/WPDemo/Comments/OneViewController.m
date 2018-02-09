@@ -7,7 +7,8 @@
 //
 
 #import "OneViewController.h"
-#import <MJRefresh.h>
+//#import <MJRefresh.h>
+
 @interface OneViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tabView;
 @end
@@ -16,10 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    MJRefreshHeader *header = [MJRefreshHeader headerWithRefreshingBlock:^{
-        [self performSelector:@selector(refresh) withObject:nil afterDelay:2];
-    }];
-    self.tabView.mj_header = header;
+//    MJRefreshHeader *header = [MJRefreshHeader headerWithRefreshingBlock:^{
+//        [self performSelector:@selector(refresh) withObject:nil afterDelay:2];
+//    }];
+//    self.tabView.mj_header = header;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -37,7 +38,7 @@
     return cell;
 }
 - (void)refresh{
-    [self.tabView.mj_header endRefreshing];
+//    [self.tabView.mj_header endRefreshing];
 }
 - (UITableView *)tabView
 {

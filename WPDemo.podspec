@@ -16,17 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WPDemo"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of WPDemo."
+  s.version      = "0.0.2"
+  s.summary      = "learn podspec"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                    这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
-                   DESC
+  s.description  = 'WPdemo test'
 
   s.homepage     = "https://github.com/gnaw9258wp/WPDemo.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -79,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gnaw9258wp/WPDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/gnaw9258wp/WPDemo.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +89,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files  = "Classes", "WPDemo/WPDemo/Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/WPDemo"
+  #s.exclude_files = "Classes/WPDemo"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -119,8 +117,8 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.library   = "iconv"
-   s.libraries = "iconv", "xml2"
+   #s.library   = "iconv"
+   #s.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,6 +130,7 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+   s.source_files = 'WPDemo/WPDemo/Comments/*.{h,m}'
    s.dependency "MJRefresh"
 
 end
